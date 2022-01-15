@@ -1,0 +1,159 @@
+.main {
+	padding: 10vh 30% 10vh 30%;
+	max-width: 600px;
+	margin: 0 auto;
+
+	@media only screen and (max-width: 900px) {
+		padding: 5vh 10% 0 10%;
+	}
+
+	.image_container {
+		border-radius: 50%;
+		border: 2px solid white;
+		width: 100px;
+		height: 100px;
+		margin-bottom: 1rem;
+
+		@media only screen and (max-width: 900px) {
+			width: 80px;
+			height: 80px;
+		}
+
+		.my_image {
+			border-radius: 50%;
+		}
+	}
+
+	.text_container {
+		color: white;
+		margin: auto;
+		width: 100%;
+		max-width: 600px;
+
+		@media only screen and (max-width: 900px) {
+			padding-bottom: 5vh;
+		}
+
+		.name {
+			font-size: 2rem;
+			font-weight: 800;
+			margin: 0 0 1rem 0;
+
+			@media only screen and (max-width: 900px) {
+				font-size: 1.8rem;
+			}
+		}
+
+		.title_container {
+			background-color: #313134;
+			padding: 12px;
+			text-align: center;
+			margin: 0 0 2rem 0;
+			border-radius: 8px;
+
+			.title {
+				font-size: 0.9rem;
+				font-weight: 400;
+				margin: 0;
+				padding: 0;
+				color: #fff;
+				opacity: 0.92;
+			}
+		}
+
+		.section {
+			margin-bottom: 2rem;
+		}
+
+		.heading {
+			border-bottom: 4px solid #525252;
+			width: fit-content;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 1rem;
+
+			@media only screen and (max-width: 900px) {
+				font-size: 1.4rem;
+			}
+		}
+
+		.text {
+			font-size: 1.1rem;
+			font-weight: 400;
+			margin: 0;
+			padding: 0;
+			color: #fff;
+			opacity: 0.92;
+			margin-bottom: 2rem;
+
+			@media only screen and (max-width: 900px) {
+				font-size: 1rem;
+			}
+
+			.profession {
+				font-weight: 800;
+				color: #ff63c3;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+
+		.work_buttons {
+			display: flex;
+			align-items: center;
+			justify-content: space-evenly;
+			flex-wrap: wrap;
+			text-align: center;
+
+			.work_button {
+				background-color: #81e6d9;
+				padding: 0.4rem 1.6rem;
+				border-radius: 4px;
+				cursor: pointer;
+				transition: all 0.2s ease-in-out;
+
+				p {
+					font-size: 1rem;
+					padding: 0;
+					margin: 0;
+					color: black;
+					font-weight: 500;
+				}
+
+				&:hover {
+					transform: scale(1.05);
+				}
+
+				&:active {
+					transform: scale(0.95);
+				}
+			}
+		}
+
+		.contact_container {
+			width: 80%;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+			min-width: 300px;
+
+			.contact_crumb {
+				margin-right: 12px;
+				padding: 8px 16px;
+				background-color: #313134;
+				border-radius: 4px;
+				font-size: 0.8rem;
+				margin-bottom: 12px;
+				transition: all 0.2s ease-in;
+
+				&:hover {
+					transform: scale(0.95);
+				}
+			}
+		}
+	}
+}
