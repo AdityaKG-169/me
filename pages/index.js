@@ -53,7 +53,7 @@ export default function Home() {
 							<br />
 							My stack includes{" "}
 							<strong className={styles.profession}>
-								TypeScript, React.js,`` Next.js, Node.js, AWS.
+								TypeScript, Next.js, Node.js, AWS.
 							</strong>
 						</p>
 						<div className={styles.work_buttons}>
