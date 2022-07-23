@@ -20,18 +20,18 @@ const SocialPage = () => {
 				window.location.href = "https://linkedin.com/in/adityakrishnagupta";
 				break;
 			case "twitter":
-				window.location.href = "https://twitter.com/adi_eth";
+				window.location.href = "https://twitter.com/adityakrishnag_";
 				break;
 			case "github":
 				window.location.href = "https://github.com/adityakg-169";
 				break;
 			case "blog":
 				alert("Blog coming soon!");
-				window.location.href = "https://shimy.in";
+				window.location.href = "https://www.shimy.in";
 				break;
 			case "cv":
 				window.location.href =
-					"https://drive.google.com/file/d/14Y6YMpkBkxg4K6P3uEiVXshNum034ycv/view?usp=sharing";
+					"https://drive.google.com/file/d/18rptdf9rB3oVh3aYRaZG_XbgC-xuINd6/view?usp=sharing";
 				break;
 			default:
 				setShowError(() => true);

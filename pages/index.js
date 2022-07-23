@@ -14,12 +14,12 @@ export default function Home() {
 				<title>AKG | Homepage</title>
 				<meta
 					name="description"
-					content="Hey👋! I am Aditya Krishna Gupta, 3rd year undergraduate student at BITS Pilani, pursuing EEE. Checkout my website to know more!"
+					content="Hey👋! I am Aditya Krishna Gupta, final year undergraduate student at BITS Pilani, pursuing EEE. Checkout my website to know more!"
 				/>
 				<meta property="og:title" content="AKG | Homepage" />
 				<meta
 					property="og:description"
-					content="Hey👋! I am Aditya Krishna Gupta, 3rd year undergraduate student at BITS Pilani, pursuing EEE. Checkout my website to know more!"
+					content="Hey👋! I am Aditya Krishna Gupta, final year undergraduate student at BITS Pilani, pursuing EEE. Checkout my website to know more!"
 				/>
 				<meta property="og:image" content="/logo.webp" />
 				<meta property="og:image" content="https://shimy.in/logo.webp" />
@@ -47,34 +47,13 @@ export default function Home() {
 					<section className={styles.section}>
 						<h2 className={styles.heading}>About</h2>
 						<p className={styles.text}>
-							I am a pre-final year engineering undergrad at{" "}
-							<strong>BITS Pilani, Goa</strong>. I love to learn new
-							technologies, build things and solve problems
-							<br />I am{" "}
+							I am a final year engineering undergrad at{" "}
+							<strong className={styles.profession}>BITS Pilani, Goa</strong>. I
+							love to learn new technologies, build things and solve problems.
+							<br />I love{" "}
 							<strong className={styles.profession}>
-								<Link href={"https://atlas.gs"}>
-									<a
-										target="_blank"
-										rel="noopener noreferrer"
-										className={styles.profession}
-									>
-										CEO @Atlas
-									</a>
-								</Link>
-							</strong>{" "}
-							&{" "}
-							<strong className={styles.profession}>
-								<Link href={"https://verse.uno"}>
-									<a
-										target="_blank"
-										rel="noopener noreferrer"
-										className={styles.profession}
-									>
-										CTO @Verse
-									</a>
-								</Link>
+								TypeScript, Next.js, Node.js, AWS.
 							</strong>
-							. I love <strong>TypeScript, Next.js, Node.js, AWS.</strong>
 						</p>
 						<div className={styles.work_buttons}>
 							<Link href="/blog">
