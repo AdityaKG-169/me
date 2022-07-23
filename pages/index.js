@@ -50,9 +50,10 @@ export default function Home() {
 							I am a final year engineering undergrad at{" "}
 							<strong className={styles.profession}>BITS Pilani, Goa</strong>. I
 							love to learn new technologies, build things and solve problems.
-							<br />I love{" "}
+							<br />
+							My stack includes{" "}
 							<strong className={styles.profession}>
-								TypeScript, Next.js, Node.js, AWS.
+								TypeScript, React.js,`` Next.js, Node.js, AWS.
 							</strong>
 						</p>
 						<div className={styles.work_buttons}>
