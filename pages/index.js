@@ -57,17 +57,17 @@ export default function Home() {
 							</strong>
 						</p>
 						<div className={styles.work_buttons}>
-							<Link href="/blog">
-								<a target="_blank" rel="noopener noreferrer">
-									<div className={styles.work_button}>
-										<p>Blog</p>
-									</div>
-								</a>
-							</Link>
 							<Link href="/cv">
 								<a target="_blank" rel="noopener noreferrer">
 									<div className={styles.work_button}>
 										<p>My CV</p>
+									</div>
+								</a>
+							</Link>
+							<Link href="/blog">
+								<a target="_blank" rel="noopener noreferrer">
+									<div className={styles.work_button}>
+										<p>Blog</p>
 									</div>
 								</a>
 							</Link>
